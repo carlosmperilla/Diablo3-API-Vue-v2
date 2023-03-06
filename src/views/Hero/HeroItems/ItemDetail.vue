@@ -58,7 +58,7 @@
         computed: {
             // Resuelve la URL de la imagen
             itemUrl () {
-                const host = 'https://media.blizzard.com/d3/icons/items/large/'
+                const host = 'http://media.blizzard.com/d3/icons/items/large/'
                 return `${host}${this.item.icon}.png`
             },
             // Comprueba si el item tiene gemas
