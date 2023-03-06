@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "http://media.blizzard.com/*"
-  to = "https://media.blizzard.com/*"
-  status = 301
-  force = true
