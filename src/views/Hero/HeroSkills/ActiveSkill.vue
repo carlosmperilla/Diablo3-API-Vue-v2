@@ -43,7 +43,11 @@
                 // Posibles tamaños (px)
                 const sizes = [21, 42, 64]
                 // API URL para imágenes
-                const host = `http://media.blizzard.com/d3/icons/skills/${sizes[1]}/`
+                // const baseUrl = 'http://media.blizzard.com/'
+                // La nueva url tiene certificado SSL (https),
+                // así que el navegador las muestra sin problemas en producción.
+                const baseUrl = 'https://blzmedia-a.akamaihd.net/'
+                const host = `${baseUrl}d3/icons/skills/${sizes[1]}/`
                 // Ejemplo:
                 // http://media.blizzard.com/d3/icons/skills/42/p6_necro_bonespikes.png
                 return `${host}${this.skill.icon}.png`
