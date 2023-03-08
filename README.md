@@ -7,6 +7,22 @@ https://github.com/baumannzone/diablo3-vue-platzi
 ## Deploy Site
 https://diablo3-vue-v2.netlify.app/#/
 
+# Battle Tags por Region
+**America(us):** https://us.diablo3.blizzard.com/es-mx/rankings  
+**Europa(eu):** https://eu.diablo3.blizzard.com/es-es/rankings  
+**Asia(kr):** https://kr.diablo3.blizzard.com/es-mx/rankings  
+
+Selecciona uno del ranking, al lado de su nombre esta su número identificador.
+
+Actualmente funcionan:
+
+    BattleTag: Mokkori#1308
+    Región: US
+
+    y
+
+    BattleTag: RememberMe#11475
+    Región: US
 
 ## Project setup
 ```
