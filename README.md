@@ -4,6 +4,10 @@ Basado en el repositorio original, y trabajado desde cero.
 En el curso de Vue Avanzado:
 https://github.com/baumannzone/diablo3-vue-platzi
 
+## Deploy Site
+https://diablo3-vue-v2.netlify.app/#/
+
+
 ## Project setup
 ```
 npm install
