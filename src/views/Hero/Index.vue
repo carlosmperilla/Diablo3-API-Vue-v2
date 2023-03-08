@@ -102,8 +102,8 @@
                         message: err.message
                     }
                     if (err.response) {
-                        arrObj.data = err.response.data
-                        arrObj.status = err.response.status
+                        errObj.data = err.response.data
+                        errObj.status = err.response.status
                     }
                     this.setApiErr(errObj)
                     this.$router.push({ name: 'Error' })
